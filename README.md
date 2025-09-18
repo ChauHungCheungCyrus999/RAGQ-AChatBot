@@ -1,2 +1,4 @@
-# RAGQ-AChatBot
-a Q&amp;A RAG that can handle small - large size of dataset inside the db. 94.2% - 96% success rate. using py, mysql and a simple front-end
+1. Execute `query_vector_db.py` once to create the vector database for the FAQ.
+   The `qa_faiss_index` folder will then be created.
+2. Change directory to current folder and execute `app.py` to start the Flask server.
+3. Access to http://localhost:11434/ for testing.
